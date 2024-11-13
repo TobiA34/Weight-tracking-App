@@ -23,15 +23,16 @@ const styles = StyleSheet.create({
     marginHorizontal: 3,
   },
   item: {
-    width: '48%', // Two-column layout
+    width: '45%', // Two-column layout
     flexDirection: "column",
     padding: 10,
     marginTop: 10,
-    backgroundColor: "rgba(249, 180, 45, 0.25)",
-    borderWidth: 1.5,
-    borderColor: "#fff",
+    backgroundColor: "white",
+    borderWidth: 1,
+    borderColor: "black",
     height: 'auto',
-    borderRadius: 16
+    borderRadius: 16,
+    marginLeft:16
   },
   text: {
     marginTop: 20,
