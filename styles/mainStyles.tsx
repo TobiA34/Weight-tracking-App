@@ -7,8 +7,22 @@ export default StyleSheet.create({
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: 'space-between',
-    marginVertical: 60,
+    marginVertical: 20,
     marginHorizontal: 3,
+  },
+   container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+   
+  launchScreen: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  welcomeText: {
+    fontSize: 24,
+    marginBottom: 20,
   },
   col:{
     flexDirection:'column',
@@ -39,8 +53,11 @@ export default StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-between",
     padding: 10,
-    marginTop: 100,
+    marginTop: 2,
   },
+  
+  
+
   createBtn: {
     backgroundColor: 'black',
     height: 35,
@@ -78,16 +95,31 @@ export default StyleSheet.create({
     marginBottom: 15,
     textAlign: 'center',
   },
+
     textInput: {
     padding: 16,
     borderColor: 'black',
     borderWidth: 1,
     borderRadius:16,
-    height:32,
+    height:60,
     width: 320,
     marginTop:8,
-    marginBottom:16
+    marginBottom:16,
+    color:'black'
   },
+
+  textarea:{
+    padding: 16,
+    borderColor: 'black',
+    borderWidth: 1,
+    borderRadius:16,
+    height:200,
+    width: 320,
+    marginTop:8,
+    marginBottom:16,
+    color:'black'
+  },
+  
   addTop:{
     marginTop:8,
   },
@@ -96,6 +128,22 @@ export default StyleSheet.create({
   },
    selectList: {
     marginTop: 20,  // Adjust the margin top as needed
-    width: '80%',   // Set width to 80% or any value you'd like
+    width: '100%',  // This ensures the SelectList fills the screen width
   },
+
+  modalBtn: {
+    width: 300,         // 80% of the modal width
+    height: 50,           // 50 pixels in height
+    backgroundColor: '#007AFF', // Change color to your preference
+    borderRadius: 8,      // Rounded corners for better aesthetics
+    alignItems: 'center', // Center text horizontally
+    justifyContent: 'center', // Center text vertically
+    marginVertical: 10, 
+  },
+
+    buttonText: {
+    color: '#fff',        // White text color
+    fontSize: 16,         // Text size
+    fontWeight: 'bold',
+  }
 });
