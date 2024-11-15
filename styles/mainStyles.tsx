@@ -10,6 +10,23 @@ export default StyleSheet.create({
     marginVertical: 20,
     marginHorizontal: 3,
   },
+   pickImageButton: {
+    backgroundColor: '#1e90ff',
+    padding: 10,
+    borderRadius: 5,
+    marginTop: 10,
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+    textAlign: 'center',
+  },
+imagePreview: {
+  width: 200,
+  height: 200,
+  marginTop: 10,
+  borderRadius: 10,
+},
    container: {
     flex: 1,
     justifyContent: 'center',
@@ -28,17 +45,7 @@ export default StyleSheet.create({
     flexDirection:'column',
   },
  
-  item: {
-    width: '48%', // Two-column layout
-    flexDirection: "column",
-    padding: 10,
-    marginTop: 10,
-    backgroundColor: "rgba(249, 180, 45, 0.25)",
-    borderWidth: 1.5,
-    borderColor: "#fff",
-    height: 'auto',
-    borderRadius: 16
-  },
+ 
   text: {
     marginTop: 20,
     fontSize: 16,
